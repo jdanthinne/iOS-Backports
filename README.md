@@ -94,8 +94,9 @@ Just copy the `Backport.swift` file into your project. That’s it.
 | iOS 18.0    | `matchedTransitionSource(id:in:)`       | Marks a view as a matched transition source      |
 | iOS 18.1    | `imagePlayground(_:completion:)`        | Presents an image playground sheet               |
 | iOS 26.0    | `glassEffect(_:in:isEnabled:)`          | Applies a glass effect                           |
-| iOS 26.0    | `glassEffect(_:in:isEnabled:fallback:)`| Glass effect with fallback for unsupported OS    |
-| iOS 26.0    | `glassButtonStyle()`                    | Applies the glass button style                   |
+| iOS 26.0    | `glassEffect(_:in:isEnabled:fallback:)` | Glass effect with fallback for unsupported OS    |
+| iOS 26.0    | `glassEffectContainer(spacing:)`        | Embed in a `GlassEffectContainer`                |
+| iOS 26.0    | `glassButtonStyle(fallbackStyle:)`      | Applies the glass button style                   |
 | iOS 26.0    | `glassProminentButtonStyle()`           | Applies the glass prominent button style         |
 | iOS 26.0    | `glassEffectTransition(_:isEnabled:)`   | Animates glass transitions                       |
 | iOS 26.0    | `glassEffectID(_:in:)`                  | Tags glass views for matched animations          |
